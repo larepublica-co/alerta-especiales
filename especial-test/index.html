@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Colores</title>
+    <meta name="description" content="Una aplicación web interactiva y elegante para generar colores pastel aleatorios sobre un fondo oscuro.">
+    <!-- Hojas de estilo y Javascript en ruta relativa a especial-test -->
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="src/app.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Colores Pastel</h1>
+        <p>Generador interactivo de paletas de colores suaves</p>
+    </header>
+
+    <main class="boxes-container">
+        <!-- Cuadro 1 -->
+        <article class="color-box" id="box-1">
+            <div class="color-preview"></div>
+            <div class="color-info">
+                <div class="color-hex">#CCCCCC</div>
+                <div class="color-label">Color A</div>
+            </div>
+        </article>
+
+        <!-- Cuadro 2 -->
+        <article class="color-box" id="box-2">
+            <div class="color-preview"></div>
+            <div class="color-info">
+                <div class="color-hex">#CCCCCC</div>
+                <div class="color-label">Color B</div>
+            </div>
+        </article>
+
+        <!-- Cuadro 3 -->
+        <article class="color-box" id="box-3">
+            <div class="color-preview"></div>
+            <div class="color-info">
+                <div class="color-hex">#CCCCCC</div>
+                <div class="color-label">Color C</div>
+            </div>
+        </article>
+    </main>
+
+    <section class="controls">
+        <button type="button" class="btn-trigger" id="btn-change">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+            </svg>
+            Generar Nuevos Colores
+        </button>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Especial Test. Diseñado con elegancia.</p>
+    </footer>
+
+</body>
+</html>
